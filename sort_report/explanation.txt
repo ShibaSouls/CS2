@@ -1,0 +1,8 @@
+// explanation for sort_report lab
+// Livia Coduto
+
+The function that takes the longest is the bubble_sort function,
+with a time of 24.30. This is a massive difference compared to quick_sort,
+which only takes 3.30. This can most likely be attributed to how many times
+bubble_sort needs to call to the vector in order to work properly. The 
+bottleneck in bubble_sort is how many calls it makes to the vector.
